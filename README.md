@@ -1,54 +1,46 @@
-# Astro Starter Kit: Basics
+# Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+¡Bienvenido a mi portafolio digital!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Descripción
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este repositorio contiene mi portafolio digital, donde comparto algunos de mis proyectos personales y habilidades en desarrollo web.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Tecnologías Utilizadas
 
-## 🚀 Project Structure
+- Astro
+- React JS
+- Svelte
+- TailwindCSS
 
-Inside of your Astro project, you'll see the following folders and files:
+## Instalación
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+1. Clona este repositorio a tu máquina local usando `git clone`.
+2. Navega a la carpeta del proyecto.
+3. Ejecuta `npm install` para instalar las dependencias.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Cómo Usar
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+1. Abre el proyecto en tu editor de código favorito.
+2. Ejecuta `npm start` para iniciar el servidor de desarrollo.
+3. Abre tu navegador y visita `http://localhost:3000` para ver el portafolio en acción.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Proyectos Destacados
 
-## 🧞 Commands
+- [Proyecto 1](#): Breve descripción del proyecto 1.
+- [Proyecto 2](#): Breve descripción del proyecto 2.
+- [Proyecto 3](#): Breve descripción del proyecto 3.
 
-All commands are run from the root of the project, from a terminal:
+## Contribuir
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+¡Siéntete libre de contribuir! Si deseas agregar nuevas características, solucionar problemas o mejorar la documentación, simplemente abre un nuevo pull request.
 
-## 👀 Want to learn more?
+## Contacto
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Puedes contactarme a través de mi [sitio web](#) o [correo electrónico](#).
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+¡Gracias por visitar mi portafolio!
