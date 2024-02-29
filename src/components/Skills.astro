@@ -1,0 +1,153 @@
+---
+import Adobe from "./SkillsIcons/Adobe.astro"
+import CSS from "./SkillsIcons/CSS.astro"
+import Figma from "./SkillsIcons/Figma.astro"
+import Flask from "./SkillsIcons/Flask.astro"
+import Flutter from "./SkillsIcons/Flutter.astro"
+import Git from "./SkillsIcons/Git.astro"
+import GitHub from "./SkillsIcons/SKGitHub.astro"
+import HTML from "./SkillsIcons/HTML.astro"
+import Java from "./SkillsIcons/Java.astro"
+import JavaScript from "./SkillsIcons/JavaScript.astro"
+import MySQL from "./SkillsIcons/MySQL.astro"
+import NodeJS from "./SkillsIcons/Nodejs.astro"
+import Python from "./SkillsIcons/Python.astro"
+import Astro from "./SkillsIcons/SkillAstro.astro"
+import Tailwind from "./SkillsIcons/SkTailwind.astro"
+import WordPress from "./SkillsIcons/WordPress.astro"
+
+
+const TAGS = {
+  ADOBE: {
+    name: "Adobe",
+    class: "bg-black text-white",
+    icon: Adobe,
+  },
+  CSS: {
+    name: "CSS",
+    class: "bg-[#003159] text-white",
+    icon: CSS,
+  },
+
+  FIGMA: {
+    name: "Figma",
+    class: "bg-[#23272f] text-white",
+    icon: Figma,
+  },
+
+  FLASK: {
+    name: "Flask",
+    class: "bg-[#0d1117] text-white",
+    icon: Flask,
+  },
+
+  FLUTTER: {
+    name: "Flutter",
+    class: "bg-[#ffffff] text-black font-bold",
+    icon: Flutter,
+  },
+
+  GIT: {
+    name: "Git",
+    class: "bg-black text-white",
+    icon: Git,
+  },
+  GITHUB: {
+    name: "GitHub",
+    class: "bg-[#003159] text-white",
+    icon: GitHub,
+  },
+
+  HTML: {
+    name: "HTML",
+    class: "bg-[#23272f] text-white",
+    icon: HTML,
+  },
+
+  JAVA: {
+    name: "Java",
+    class: "bg-[#0d1117] text-white",
+    icon: Java,
+  },
+
+  JAVASCRIPT: {
+    name: "JavaScript",
+    class: "bg-[#ffffff] text-black font-bold",
+    icon: JavaScript,
+  },
+
+  MYSQL: {
+    name: "MySQL",
+    class: "bg-[#0d1117] text-white",
+    icon: MySQL,
+  },
+
+  NODEJS: {
+    name: "Node.js",
+    class: "bg-[#ffffff] text-black font-bold",
+    icon: NodeJS,
+  },
+
+  PYTHON: {
+    name: "Python",
+    class: "bg-[#0d1117] text-white",
+    icon: Python,
+  },
+
+  TAILWIND: {
+    name: "Tailwind CSS",
+    class: "bg-[#ffffff] text-black font-bold",
+    icon: Tailwind,
+  },
+  ASTRO: {
+    name: "Astro",
+    class: "bg-[#0d1117] text-white",
+    icon: Astro,
+  },
+
+  WORDPRESS: {
+    name: "WordPress",
+    class: "bg-[#ffffff] text-black font-bold",
+    icon: WordPress,
+  },
+}
+const PROJECTS = [
+  {
+    tags: [TAGS.NEXT, TAGS.REACT, TAGS.TAILWIND],
+  },
+]
+---
+
+<div class="flex flex-col gap-y-16">
+{
+    PROJECTS.map(({ tags,}) => (
+    <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+  <div class="w-full md:w-1/2">
+    <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+      
+    </div>
+  </div>
+
+  <div class="w-full md:w-1/2 md:max-w-lg">    
+    <div class="flex flex-wrap mt-2">
+      <ul class="flex flex-row mb-2 gap-x-2">
+          {tags.map((tag) => (
+            <li>
+              <span
+                class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
+              >
+                <tag.icon class="size-4" />
+                {tag.name}
+              </span>
+            </li>
+          ))}
+        </ul>
+    </div>
+  </div>
+</article>
+    ))
+}
+</div>
+
+
+

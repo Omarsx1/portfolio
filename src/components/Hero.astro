@@ -1,0 +1,53 @@
+---
+const personalImageAlt = "Omar Salazar";
+import Badge from "../components/Badge.astro";
+import Linkedin from "./icons/Linkedin.astro";
+import Github from "./icons/GitHub.astro";
+import Mail from "./icons/Mail.astro";
+import SocialPill from "./SocialPill.astro";
+---
+
+<div class="max-w-xl">
+    <div class="flex gap-4 mb-5">
+        <img 
+        class="rounded-full shadow-lg size-16"
+        src="https://avatars.githubusercontent.com/u/31782107?v=4" 
+        alt={personalImageAlt} 
+        />
+        <a
+            href="https://www.linkedin.com/in/omarsalazarf/"
+            target="_blank"
+            rel="noopener"
+            class="flex items-center transition md:justify-center md:hover:scale-105"
+        >
+            <Badge>Disponible para trabajar</Badge>
+        </a>
+    </div>
+    <h1
+        class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+    >
+        Hola, soy Omar Salazar
+    </h1>
+
+    <p 
+    class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-green-400 [&>strong]:text-green-500 [&>strong]:font-semibold dark:text-gray-300"
+    >
+        +7 años de experiencia. <strong
+        >Ingeniero de sistemas y Diseñador Gráfico </strong
+        >de Lima, Perú. Especializado en el desarrollo de aplicaciones web únicas.
+        </p>
+    <nav class="flex flex-wrap gap-4 mt-8">
+        <SocialPill href="https://www.linkedin.com/in/omarsalazarf/">
+            <Linkedin class="size-4 md:size-6" />
+            Linkedin
+        </SocialPill>
+        <SocialPill href="https://github.com/Omarsx1">
+            <Github class="size-4 md:size-6" />
+            Github
+        </SocialPill>
+        <SocialPill href="mailto:salazarjuniorf@gmail.com">
+            <Mail class="size-4 md:size-6" />
+            Contáctame
+        </SocialPill>
+    </nav>
+</div>
