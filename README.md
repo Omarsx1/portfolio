@@ -1,6 +1,6 @@
 # Portfolio
 
-¡Bienvenido a mi portafolio digital!
+¡Bienvenido a mi portafolio digital, actualmente en desarrollo!
 
 ## Descripción
 
@@ -10,7 +10,7 @@ Este repositorio contiene mi portafolio digital, donde comparto algunos de mis p
 
 - Astro
 - React JS
-- Svelte
+- JavaScript
 - TailwindCSS
 
 ## Instalación
@@ -27,9 +27,9 @@ Este repositorio contiene mi portafolio digital, donde comparto algunos de mis p
 
 ## Proyectos Destacados
 
-- [Proyecto 1](#): Breve descripción del proyecto 1.
-- [Proyecto 2](#): Breve descripción del proyecto 2.
-- [Proyecto 3](#): Breve descripción del proyecto 3.
+- Se colocará al termino del desarrollo.
+- .
+- .
 
 ## Contribuir
 
@@ -37,7 +37,7 @@ Este repositorio contiene mi portafolio digital, donde comparto algunos de mis p
 
 ## Contacto
 
-Puedes contactarme a través de mi [sitio web](#) o [correo electrónico](#).
+Puedes contactarme a través de mi correo electrónico salazarjuniorf@gmail.com.
 
 ## Licencia
 
